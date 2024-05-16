@@ -2,7 +2,7 @@
 const apiKey = "";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
-         
+ //person A brach merge request        
 async function checkWeather(cityName){
     try {
         const response = await fetch(`${apiUrl}${cityName}&appid=${apiKey}`);
